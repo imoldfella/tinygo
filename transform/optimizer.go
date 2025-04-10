@@ -32,6 +32,8 @@ func OptimizePackage(mod llvm.Module, config *compileopts.Config) {
 func Optimize(mod llvm.Module, config *compileopts.Config) []error {
 	optLevel, speedLevel, _ := config.OptLevel()
 
+	_ = VectorizePass(mod)
+
 	// Make sure these functions are kept in tact during TinyGo transformation passes.
 	for _, name := range functionsUsedInTransforms {
 		fn := mod.NamedFunction(name)
