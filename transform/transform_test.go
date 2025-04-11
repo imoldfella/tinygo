@@ -24,6 +24,15 @@ var defaultTestConfig = &compileopts.Config{
 	Options: &compileopts.Options{Opt: "2"},
 }
 
+// func TestVectorizeTransform(t *testing.T) {
+// 	t.Parallel()
+// 	assertMatches(t, "vectorize.go", func(ir string) bool {
+// 		// Look for a vector operation like:
+// 		//   add <4 x i32>
+// 		return strings.Contains(ir, "add <4 x i32>")
+// 	})
+// }
+
 // testTransform runs a transformation pass on an input file (pathPrefix+".ll")
 // and checks whether it matches the expected output (pathPrefix+".out.ll"). The
 // output is compared with a fuzzy match that ignores some irrelevant lines such

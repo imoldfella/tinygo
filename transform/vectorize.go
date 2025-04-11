@@ -1,10 +1,6 @@
 package transform
 
 import (
-	// "tinygo.org/x/tinygo/ir"
-	// "tinygo.org/x/tinygo/transformutil"
-	// "tinygo.org/x/tinygo/compiler"
-	// "tinygo.org/x/go-llvm/llvm"
 	"strings"
 
 	"tinygo.org/x/go-llvm"

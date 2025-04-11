@@ -16,7 +16,6 @@ require (
 	github.com/sigurn/crc16 v0.0.0-20211026045750-20ab5afb07e3
 	github.com/tetratelabs/wazero v1.6.0
 	go.bug.st/serial v1.6.0
-	golang.org/x/net v0.26.0
 	golang.org/x/sys v0.21.0
 	golang.org/x/tools v0.22.1-0.20240621165957-db513b091504
 	gopkg.in/yaml.v2 v2.4.0
@@ -33,5 +32,4 @@ require (
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/stretchr/testify v1.8.4 // indirect
-	golang.org/x/text v0.16.0 // indirect
 )
